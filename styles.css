@@ -62,12 +62,12 @@ h1 span {
   border: 2px solid #000;
 }
 
-#clock div:last-child {
-  background: #FCF302;
+#clock div :last-child {
+  background: #fcf302;
   color: #000;
 }
 
-#clock div::before {
+#clock div ::before {
   content: '';
   position: absolute;
   top: 0;
@@ -82,12 +82,12 @@ h1 span {
   text-align: center;
 }
 
-#clock div span:nth-child(1) {
+#clock div :nth-child(1) {
   font-size: 48px;
   font-weight: 800;
 }
 
-#clock div span:nth-child(2) {
+#clock div :nth-child(2) {
   font-size: 18px;
   font-weight: 800;
   margin-top: -10px;
@@ -104,6 +104,8 @@ h1 span {
   margin-right: 1.5rem;
   padding-left: 5px;
   padding-right: 5px;
+  z-index: 9999;
+  position: relative;
 }
 
 .button a {
@@ -129,11 +131,6 @@ h1 span {
   text-decoration: none;
   padding-right: 5px;
   padding-left: 5px;
-}
-
-.button {
-  z-index: 9999;
-  position: relative;
 }
 
 .footer-bottom {
