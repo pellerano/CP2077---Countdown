@@ -146,4 +146,27 @@ h1 span {
   position: relative;
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .center h1 {
+    margin-top: 35vh;
+    font-size: 1rem;
+  }
+  .overlay {
+    height: 122%;
+  }
+  #clock {
+    width: 150px;
+    display: block;
+  }
+  #clock div {
+    margin: 0 0 5px;
+  }
+  section {
+    overflow: auto;
+  }
+  .footer-bottom {
+    display: block;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
