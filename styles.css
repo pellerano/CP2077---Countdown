@@ -149,7 +149,7 @@ h1 span {
 
 @media screen and (max-width: 1024px) {
   .center {
-    top: 70vh;
+    top: 80vh;
   }
   .center h1 {
     margin-top: 5vh;
@@ -163,7 +163,7 @@ h1 span {
     margin: 0 0 5px;
   }
   section {
-    height: 130vh;
+    height: 150vh;
   }
   .footer-bottom {
     display: relative;
